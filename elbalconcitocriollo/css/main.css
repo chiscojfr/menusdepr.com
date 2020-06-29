@@ -270,8 +270,8 @@ Primary use:
 
 /*------------------------------------------------------------------
 [ Custom ]*/
-.psc-logo {
-  width: 900px;
+.balconcito-logo {
+  width: 400px;
 }
 
 /*==================================================================
@@ -512,8 +512,8 @@ Primary use:
     color: white;
   }
 
-  .psc-logo {
-    width: 400px;
+  .balconcito-logo {
+    width: 300px;
   }
 }
 
