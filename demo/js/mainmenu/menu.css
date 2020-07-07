@@ -477,7 +477,7 @@ background:rgba(210, 210, 210, .4)
 	left:0;
 	width:100%;
 	background-color: transparent;
-	height:80px;
+	/* height:80px; */
 	border-bottom: 0px solid rgba(255, 255, 255, 0.18);
 }
 .header.headr-style-inside{
