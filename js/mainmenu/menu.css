@@ -601,10 +601,10 @@ background:rgba(210, 210, 210, .4)
  height: auto;
  padding-top: 5px;
 }
-.compact .header .navbar-brand {
- background-size: 75%;
- background-position: left 20px;
-}
+/* .compact .header .navbar-brand {
+ /* background-size: 75%;
+ background-position: left 20px; */
+} */
 .compact .header .navbar-nav>li>a {
  padding-top: 20px;
  padding-bottom: 20px;
@@ -654,10 +654,10 @@ background:rgba(210, 210, 210, .4)
  padding-top: 0px;
  padding-bottom: 9px;
 }
-.compact .header .navbar-brand {
-background-size: 75%%;
+/* .compact .header .navbar-brand {
+background-size: 75%;
  background-position: left 22px;
-}
+} */
 .header.headr-style-2 {
  padding-top:20px;
 }
@@ -672,10 +672,10 @@ background-size: 75%%;
  padding-top: 0px;
  padding-bottom: 0px;
 }
-.compact .header .navbar-brand {
+/* .compact .header .navbar-brand {
  background-size: 75%;
  background-position: left 22px;
-}
+} */
 .header.headr-style-2 {
  padding-top:0px;
 }
