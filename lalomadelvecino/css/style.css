@@ -2064,26 +2064,34 @@ ul.address-info.one li {
   width: 85%;
 }
 
-.cbp-wrapper-outer {
-  border: 10px solid;
-  border-image: radial-gradient(rgb(0 0 0), rgb(113 70 5)) 1;
-}
+/* @media only screen and (max-width: 800px) { */
+  .cbp-wrapper-outer {
+    border: 10px solid;
+    border-image: radial-gradient(rgb(0 0 0), rgb(113 70 5)) 1;
+  }
+  
+  .cbp-item {
+    width: 100% !important;
+    padding: 10px !important;
+  }
+  
+  .wood-border {
+    border: 10px solid;
+    border-image: radial-gradient(rgb(0 0 0), rgb(113 70 5)) 1;
+    padding: 15px !important;
+    margin-bottom: 30px;
+  }
+  
+  html, body {
+    overflow-x: hidden !important;
+  }
+  body {
+    position: relative !important;
+  }
+/* } */
 
-.cbp-item {
-  width: 100% !important;
-  padding: 10px !important;
-}
-
-.wood-border {
-  border: 10px solid;
-  border-image: radial-gradient(rgb(0 0 0), rgb(113 70 5)) 1;
-  padding: 15px !important;
-  margin-bottom: 30px;
-}
-
-html, body {
-  overflow-x: hidden !important;
-}
-body {
-  position: relative !important;
-}
+/* @media only screen and (min-width: 500px) {
+  .w-400 {
+    width: 400px !important;
+  }
+} */
