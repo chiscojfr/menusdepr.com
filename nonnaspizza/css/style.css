@@ -2055,3 +2055,10 @@ ul.address-info.one li {
   color: #b91319;
   font-weight: bold;
 }
+
+html, body {
+  overflow-x: hidden !important;
+}
+body {
+  position: relative !important;
+}
