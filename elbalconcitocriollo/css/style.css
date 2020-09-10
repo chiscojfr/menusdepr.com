@@ -2048,3 +2048,11 @@ ul.address-info.one li {
   background: #ef0400 url(../images/scroll-top-arrow.png) no-repeat 15px 14px;
   z-index: 999;
 }
+
+/* Custom */
+html, body {
+  overflow-x: hidden !important;
+}
+body {
+  position: relative !important;
+}
