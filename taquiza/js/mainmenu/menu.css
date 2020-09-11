@@ -471,7 +471,7 @@ background:rgba(210, 210, 210, .4)
 }
 .header {
 	display:block;
-	position:fixed;
+	/*position:fixed;*/
 	z-index:9000!important;
 	top:50px;
 	left:0;
