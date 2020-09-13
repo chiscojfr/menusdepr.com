@@ -1986,3 +1986,13 @@ ul.address-info.one li {
 		display: none;
 	}
 }
+
+@media(min-width:960px) {
+    .imgbox img {
+		/* width: 100%; */
+		width: 300px;
+		height: 180px;
+		margin: 0 auto;
+	}
+}
+
