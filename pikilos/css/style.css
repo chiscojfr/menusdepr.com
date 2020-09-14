@@ -2064,3 +2064,10 @@ body {
   padding: 0;
   width: 85%;
 }
+
+@media(min-width:960px) {
+  .imgbox img {
+    width: 50%;
+    margin: 0 auto;
+  }
+}
