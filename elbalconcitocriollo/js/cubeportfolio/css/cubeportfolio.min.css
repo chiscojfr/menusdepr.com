@@ -945,10 +945,10 @@
 }
 .cbp-l-filters-work .cbp-filter-item:hover {
 	color:#fff;
-	background:#607D8B
+	background: #ef0400;
 }
 .cbp-l-filters-work .cbp-filter-item.cbp-filter-item-active {
-	background:#607D8B;
+	background:#ef0400;
 	color:#fff;
 	cursor:default
 }
