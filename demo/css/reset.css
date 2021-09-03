@@ -16,7 +16,7 @@ a {
 a:focus, a:hover, a:active {
 	outline: none !important;
 	text-decoration: none;
-	color:#ef0400;
+	color:#912429;
 }
 /*-------- html tags --------*/
 p {
@@ -107,7 +107,7 @@ blockquote {
 	background:#FFF;
 }
 .color-bg{
-	background:#ef0400;
+	background:#912429;
 	padding:14px 25px;
 }
 
@@ -141,7 +141,7 @@ blockquote {
 	color:#FFF !important;
 }
 .font-color {
-	color:#ef0400;
+	color:#912429;
 }
 .font-red {
 	color:#ff0000;

@@ -1,44 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-171460365-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-171460365-1');
-</script>
+ <!-- Global site tag (gtag.js) - Google Analytics -->
+<script type="text/javascript"> 
+  var _gaq = _gaq || [];
+   _gaq.push(['b._setAccount', 'UA-171460365-1']); 
+   _gaq.push(['b._trackPageview']);
+ 
+   (function() { 
+     var ga = document.createElement('script'); 
+     ga.type = 'text/javascript'; 
+     ga.async = true; 
+     ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'https://www') + '.google-analytics.com/ga.js'; 
+     var s = document.getElementsByTagName('script')[0]; 
+     s.parentNode.insertBefore(ga, s); 
+     })(); 
+ </script>
 
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1">
 <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
 <!-- Primary Meta Tags -->
-<title>MenusDePR.com: Menús Digitales de Restaurantes de Puerto Rico</title>
-<meta name="title" content="MenusDePR.com: Menús Digitales de Restaurantes de Puerto Rico">
-<meta name="description" content="Accede al menú de tu restaurante favorito desde el celular.">
+<title>MenusDePR.com: DEMO</title>
+<meta name="title" content="MenusDePR.com: DEMO">
+<meta name="description" content="Acceda a nuestro menú digital.">
 
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://menusdepr.com/">
-<meta property="og:title" content="MenusDePR.com: Menús Digitales de Restaurantes de Puerto Rico">
-<meta property="og:description" content="Accede al menú de tu restaurante favorito desde el celular.">
-<meta property="og:image" content="https://menusdepr.com/images/default.png">
+<meta property="og:url" content="https://menusdepr.com/demo">
+<meta property="og:title" content="MenusDePR.com: DEMO">
+<meta property="og:description" content="Acceda a nuestro menú digital.">
+<meta property="og:image" content="https://menusdepr.com/demo/images/logo.jpeg">
 
 <!-- Twitter -->
 <meta property="twitter:card" content="summary_large_image">
-<meta property="twitter:url" content="https://menusdepr.com/">
-<meta property="twitter:title" content="MenusDePR.com: Menús Digitales de Restaurantes de Puerto Rico">
-<meta property="twitter:description" content="Accede al menú de tu restaurante favorito desde el celular.">
-<meta property="twitter:image" content="https://menusdepr.com/images/default.png">
+<meta property="twitter:url" content="https://menusdepr.com/demo/">
+<meta property="twitter:title" content="MenusDePR.com: DEMO">
+<meta property="twitter:description" content="Acceda a nuestro menú digital.">
+<meta property="twitter:image" content="https://menusdepr.com/demo/images/logo.jpeg">
 
 <!-- Favicon -->
-<!-- <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png"> -->
+<link rel="apple-touch-icon" sizes="180x180" href="../images/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../images/favicon-16x16.png">
+<link rel="manifest" href="../images/site.webmanifest">
+<link rel="mask-icon" href="../images/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
 
 <!-- Google fonts - witch you want to use - (rest you can just remove) -->
-<link href='http://fonts.googleapis.com/css?family=Raleway:400,500,600,700,800,900,300,200,100' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Raleway:400,500,600,700,800,900,300,200,100' rel='stylesheet' type='text/css'>
 
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -76,261 +89,247 @@
       <div class="navbar yamm navbar-default">
         <div class="container">
           <div class="navbar-header text-center" style="margin-top: 15px;">
-            <a href="index.html" class="">Menús de PR</a></div>
+            <a href="https://menusdepr.com/" class="">MenúsDePR</a></div>
           </div>
         </div>
       </div>
   </header> 
   <!-- end Header -->
   
-  <div class="page-header one" style="margin-top: -7px;"">
+  <div class="section-lg">
     <div class="container">
-      <div class="col-md-6 left-padd0">
-        <h3 class="font45 font-white uppercase">Menú </h3>
-        <h4 class="font18 font-white font-thin m-top1">Restaurante</h4>
-      </div>
-    </div>
-  </div>
-  <!-- end page header -->
-  
-  <div class="section-lg m-top8">
-    <div class="container">
+        <br>
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <img src="./images/logo.png" width="150"/>
+          </div>
+        </div>
+        <br>
       <div id="js-filters-awesome-work" class="cbp-l-filters-work">
         <div data-filter="*" class="cbp-filter-item-active cbp-filter-item"> Mostrar Todos </div>
-        <div data-filter=".aperitivos" class="cbp-filter-item"> Aperitivos </div>
-        <div data-filter=".pechugas" class="cbp-filter-item"> Pechugas </div>
-        <div data-filter=".pastas" class="cbp-filter-item"> Pasta </div>
-        <div data-filter=".acompanantes" class="cbp-filter-item"> Acompañantes </div>
-        <div data-filter=".postres" class="cbp-filter-item"> Postres </div>
+        <!-- <div data-filter=".picadera" class="cbp-filter-item"> Aperitivos</div> -->
+        <div data-filter=".surtidos" class="cbp-filter-item"> Aperitivos</div>
+        <!-- <div data-filter=".pastelillos" class="cbp-filter-item"> Pastelillos</div> -->
+        <div data-filter=".pechugas" class="cbp-filter-item"> Pechugas</div>
+        <!-- <div data-filter=".alitas" class="cbp-filter-item"> Alitas</div> -->
+        <!-- <div data-filter=".al-plato" class="cbp-filter-item"> Al Plato</div> -->
+        <div data-filter=".mofongo" class="cbp-filter-item"> Mofongos Rellenos</div>
+        <!-- <div data-filter=".tostones" class="cbp-filter-item"> Tostones Rellenos</div> -->
+        <div data-filter=".especialidades" class="cbp-filter-item"> Especialidad de La Casa</div>
+        <div data-filter=".sides" class="cbp-filter-item"> Sides</div>
       </div>
       <div id="js-grid-awesome-work" class="cbp cbp-l-grid-work">
-        <div class="cbp-item pechugas">
+        
+        <div class="cbp-item mofongo">
+          <div class="section-titles text-center">
+            <h4 class="font20 font-bold uppercase">Mofongos Rellenos</h4>
+            <div class="title-line-recommended color"></div>
+          </div>
           <div class="menu-card">
             <div class="menu-items">
-              <h3>Pechuga A La Parrilla</h3>
-              <span class="price">$10.95</span>
+              <h3>Carne Frita</h3>
+              <span class="price">$11.95</span>
               <div class="dotted-lines"></div>
             </div>
-          </div>
-        </div>
-        <div class="cbp-item pechugas">
-          <div class="menu-card">
             <div class="menu-items">
-              <h3>Pechuga En Salsa Criolla</h3>
-              <span class="price">$11.99</span>
-              <div class="dotted-lines"></div>
-            </div>
-          </div>
-        </div>
-        <div class="cbp-item pechugas">
-          <div class="menu-card">
-            <div class="menu-items">
-              <h3>Pechuga Al Ajillo</h3>
-              <span class="price">$11.99</span>
-              <div class="dotted-lines"></div>
-            </div>
-          </div>
-        </div>
-        <div class="cbp-item pechugas">
-          <div class="menu-card">
-            <div class="menu-items">
-              <h3>Pechuga Empanada</h3>
-              <span class="price">$10.99</span>
-              <div class="dotted-lines"></div>
-            </div>
-          </div>
-        </div>
-        <div class="cbp-item pechugas">
-          <div class="menu-card">
-            <div class="menu-items">
-              <h3>Pechuga A La Milanesa</h3>
-              <span class="price">$12.50</span>
-              <div class="dotted-lines"></div>
-            </div>
-          </div>
-        </div>
-        <div class="cbp-item aperitivos">
-          <div class="menu-card">
-            <div class="menu-items">
-              <h3>Mozzarella Sticks (6)</h3>
-              <span class="price">$4.95</span>
-              <div class="dotted-lines"></div>
-            </div>
-          </div>
-        </div>
-        <div class="cbp-item aperitivos">
-          <div class="menu-card">
-            <div class="menu-items">
-              <h3>Queso Frito</h3>
-              <span class="price">$5.95</span>
-              <div class="dotted-lines"></div>
-            </div>
-          </div>
-        </div>
-
-        <div class="cbp-item aperitivos">
-          <div class="menu-card">
-            <div class="menu-items">
-              <h3>Cordon Blue</h3>
-              <span class="price">$4.95</span>
-              <div class="dotted-lines"></div>
-            </div>
-          </div>
-        </div>
-        <div class="cbp-item pastas">
-          <div class="menu-card">
-            <div class="menu-items">
-              <h3>Pasta Penne Pollo</h3>
-              <span class="price">$10.99</span>
-              <div class="dotted-lines"></div>
-            </div>
-          </div>
-        </div>
-        <div class="cbp-item pastas">
-          <div class="menu-card">
-            <div class="menu-items">
-              <h3>Pasta Penne Camarones</h3>
+              <h3>Carne Ahumada</h3>
               <span class="price">$14.95</span>
               <div class="dotted-lines"></div>
             </div>
-          </div>
-        </div>
-        <div class="cbp-item pastas">
-          <div class="menu-card">
             <div class="menu-items">
-              <h3>Pasta Penne Churrasco</h3>
-              <span class="price">$18.95</span>
+              <h3>Churrasco</h3>
+              <span class="price">$19.95</span>
               <div class="dotted-lines"></div>
             </div>
+            <div class="menu-items">
+              <h3>Pechuga</h3>
+              <span class="price">$12.95</span>
+              <div class="dotted-lines"></div>
+            </div>
+            <p>Criolla | Ajillo | Mantequilla | Setas | Milanesa | Queso</p>
+            <div class="menu-items">
+              <h3>Camarones</h3>
+              <span class="price">$14.95</span>
+              <div class="dotted-lines"></div>
+            </div>
+            <p>Criolla | Ajillo</p>
+            <div class="menu-items">
+              <h3>Pulpo</h3>
+              <span class="price">$14.95</span>
+              <div class="dotted-lines"></div>
+            </div>
+            <div class="menu-items">
+              <h3>Spicy Crab</h3>
+              <span class="price">$13.95</span>
+              <div class="dotted-lines"></div>
+            </div>
+
+          </div>
+           
+        </div>
+
+        <div class="cbp-item surtidos">
+          <div class="section-titles text-center">
+            <h4 class="font20 font-bold uppercase">Aperitivos</h4>
+            <div class="title-line-recommended color"></div>
+          </div>
+          <div class="menu-card">
+            <div class="menu-items">
+              <h3>Pa' Picar</h3>
+              <span class="price">$14.00</span>
+              <div class="dotted-lines"></div>
+            </div>
+            <p>1/2 lb. carne de su selección <br> 
+              Carne Frita | Alitas | Chicharrones de Pollo
+            </p>
+            <div class="menu-items">
+              <h3>Sampler</h3>
+              <span class="price">$20.00</span>
+              <div class="dotted-lines"></div>
+            </div>
+            <p>1 lb. carne de su selección <br> 
+              Carne Frita | Alitas | Chicharrones de Pollo
+            </p>
+            <div class="menu-items">
+              <h3>Mega Sampler</h3>
+              <span class="price">$28.00</span>
+              <div class="dotted-lines"></div>
+            </div>
+            <p>1 1/2 lb. carne de su selección <br> 
+              Carne Frita | Alitas | Chicharrones de Pollo
+            </p>
+            <p><b>** Incluyen: Tostones, Mozarellas, Sorullitos, Pastelillos Surtidos, Cordon Bleu, Fritas **</b></p>
+            <div class="menu-items">
+              <h3>La Metalica</h3>
+              <span class="price">$35.00</span>
+              <div class="dotted-lines"></div>
+            </div>
+            <p>Camarones Empanados, Mero, Queso Frito, Spicy Crab, Chips Malanga, Papa Plátanos, Longaniza
+            </p>
+
           </div>
         </div>
-        <div class="cbp-item acompanantes">
+
+        <div class="cbp-item especialidades">
+          <div class="section-titles text-center">
+            <h4 class="font20 font-bold uppercase">Especialidad de La Casa</h4>
+            <div class="title-line-recommended color"></div>
+          </div>
+          <div class="menu-card">
+            <div class="menu-items">
+              <h3>Pinchera</h3>
+              <span class="price">$13.00</span>
+              <div class="dotted-lines"></div>
+            </div>
+            <div class="menu-items">
+              <h3>Tacos Chilli Pepers (4)</h3>
+              <span class="price">$10.00</span>
+              <div class="dotted-lines"></div>
+            </div>
+            <div class="menu-items">
+              <h3>Sombreritos (2)</h3>
+              <span class="price">$12.00</span>
+              <div class="dotted-lines"></div>
+            </div>
+            <p>Camarones | Pulpo | Carne Molida | Spicy Crab</p>
+            <div class="menu-items">
+              <h3>Sombreritos (4)</h3>
+              <span class="price">$20.00</span>
+              <div class="dotted-lines"></div>
+            </div>
+            <p>Camarones | Pulpo | Carne Molida | Spicy Crab</p>
+           
+          </div>
+        </div>
+
+        <div class="cbp-item pechugas">
+          <div class="section-titles text-center">
+            <h4 class="font20 font-bold uppercase">Pechugas</h4>
+            <div class="title-line-recommended color"></div>
+          </div>
+          <div class="menu-card">
+            <div class="menu-items">
+              <h3>Pechuga</h3>
+              <span class="price">$9.95</span>
+              <div class="dotted-lines"></div>
+            </div>
+            <p>Al Ajillo | Criolla | Mantqeuilla | Empanada | Guayaba</p>
+            <div class="menu-items">
+              <h3>Pechuga a la Milanesa</h3>
+              <span class="price">$10.95</span>
+              <div class="dotted-lines"></div>
+            </div>
+            <div class="menu-items">
+              <h3>Pechuga en Salsa de Queso</h3>
+              <span class="price">$10.95</span>
+              <div class="dotted-lines"></div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="cbp-item sides">
+          <div class="section-titles text-center">
+            <h4 class="font20 font-bold uppercase">Sides</h4>
+            <div class="title-line-recommended color"></div>
+          </div>
           <div class="menu-card">
             <div class="menu-items">
               <h3>Tostones</h3>
               <span class="price"></span>
               <div class="dotted-lines"></div>
             </div>
-          </div>
-        </div>
-        <div class="cbp-item acompanantes">
-          <div class="menu-card">
             <div class="menu-items">
-              <h3>Maduros</h3>
+              <h3>Platanutres</h3>
               <span class="price"></span>
               <div class="dotted-lines"></div>
             </div>
-          </div>
-        </div>
-         <div class="cbp-item acompanantes">
-          <div class="menu-card">
             <div class="menu-items">
-              <h3>Arañitas</h3>
+              <h3>Chips de Batata</h3>
               <span class="price"></span>
               <div class="dotted-lines"></div>
             </div>
-          </div>
-        </div>
-        <div class="cbp-item acompanantes">
-          <div class="menu-card">
+            <div class="menu-items">
+              <h3>Chips de Malanga</h3>
+              <span class="price"></span>
+              <div class="dotted-lines"></div>
+            </div>
             <div class="menu-items">
               <h3>Papas Fritas</h3>
               <span class="price"></span>
               <div class="dotted-lines"></div>
             </div>
-          </div>
-        </div>
-        <div class="cbp-item acompanantes">
-          <div class="menu-card">
             <div class="menu-items">
-              <h3>Arroz Blanco y Habichuelas</h3>
+              <h3>Maduros</h3>
               <span class="price"></span>
               <div class="dotted-lines"></div>
             </div>
+            <div class="menu-items">
+              <h3>Onion Rings</h3>
+              <span class="price"></span>
+              <div class="dotted-lines"></div>
+            </div>
+            <div class="menu-items">
+              <h3>Yuquitas</h3>
+              <span class="price"></span>
+              <div class="dotted-lines"></div>
+            </div>
+            <div class="menu-items">
+              <h3>Arañitas</h3>
+              <span class="price"></span>
+              <div class="dotted-lines"></div>
+            </div>
+            <div class="menu-items">
+              <h3>Mofongo</h3>
+              <span class="price"></span>
+              <div class="dotted-lines"></div>
+            </div>
+
           </div>
         </div>
 
-        <div class="cbp-item postres">
-          <div class="menu-card">
-            <div class="menu-items">
-              <h3> Postre de la Casa</h3>
-              <span class="price"> $7.95</span>
-              <div class="dotted-lines"></div>
-            </div>
-          </div>
-        </div>
-
-        <div class="cbp-item postres">
-          <div class="menu-card">
-            <div class="menu-items">
-              <h3> Flanes</h3>
-              <span class="price"> $2.15</span>
-              <div class="dotted-lines"></div>
-            </div>
-            <p>Escoja entre Vainilla o Queso</p>
-          </div>
-        </div>
-
-        <div class="cbp-item postres">
-          <div class="menu-card">
-            <div class="menu-items">
-              <h3> Cheesecake</h3>
-              <span class="price"> $2.50</span>
-              <div class="dotted-lines"></div>
-            </div>
-          </div>
-        </div>
-
-        <div class="cbp-item postres">
-          <div class="menu-card">
-            <div class="menu-items">
-              <h3> Tres Leches</h3>
-              <span class="price"> $2.50</span>
-              <div class="dotted-lines"></div>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
   </div>
-<!-- end features section 1 -->
-
-<div class="section-lg bg-parallax m-top6" style="display: none;">
-  <div class="container">
-    <div class="row">
-      <h2 class="text-center font-bold font-white font30 uppercase">Recomendaciones</h2>
-      <div class="title-line-shape m-bottom2"></div>
-      <div data-ride="carousel" class="carousel slide" id="carousel-example-generic1"> 
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-          <li class="" data-slide-to="0" data-target="#carousel-example-generic1"></li>
-          <li data-slide-to="1" data-target="#carousel-example-generic1" class=""></li>
-          <li data-slide-to="2" data-target="#carousel-example-generic1" class="active"></li>
-        </ol>
-        
-        <!-- Wrapper for slides -->
-        <div role="listbox" class="carousel-inner">
-          <div class="item">
-            <div class="col-md-10 sec-auto-margin text-center">
-              <p class="font-white line-height30 font20 font-thin line-height">Recomendación 1</p>
-            </div>
-          </div>
-          <div class="item">
-            <div class="col-md-10 sec-auto-margin text-center">
-              <p class="font-white line-height30 font20 font-thin line-height">Recomendación 2</p>
-            </div>
-          </div>
-          <div class="item active">
-            <div class="col-md-10 sec-auto-margin text-center">
-              <p class="font-white line-height30 font20 font-thin line-height">Recomendación 3</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- end features section 3 -->
 
 <footer class="footer-bg m-top0">
     <div class="container">
@@ -340,7 +339,22 @@
           <div class="title-line color"></div>
           <ul class="address-info">
             <li><i class="fa fa-map-marker"></i><a href="https://goo.gl/maps/JDuMQFZULEEqKXNX9" target="_blank">Dirección (pin): 00000, PR</a></li>
-            <li><i class="fa fa-phone"></i><a href="tel:787-000-0000">(787) 000 0000</a></li>
+              <i class="fa fa-phone"></i>
+              <a href="tel:787-000-0000">(787) 000-0000</a>
+            </li>
+            <li>
+              <i class="fa fa-instagram"></i>
+              <a href="https://www.instagram.com" target="_blank">¡Síguemos en Instagram!</a>
+            </li>
+            <li>
+              <i class="fa fa-info"></i>
+              <a href="">Todos los precios están sujetos a posibles modificaciones</a>
+            </li>
+            <li>
+              <i class="fa fa-info"></i>
+              <a href="">Aviso: Consumir carnes, aves, pescados, mariscos o huevos crudos o poco cocidos puede aumentar su riesgo
+                de contraer enfermedades transmitidas por alimentos.</a>
+            </li>
           </ul>
         </div>
         </div>
@@ -351,7 +365,7 @@
   <div class="copyrights">
     <div class="container">
       <div class="row">
-        <div class="col-md-6 m-top1 m-bottom1 font-white text-center" style="width: 100%;"> Copyright &copy; <script>document.write(new Date().getFullYear())</script> menusdepr.com  </div>
+        <div class="col-md-6 m-top1 m-bottom1 font-white text-center" style="width: 100%;"> Copyright &copy; <script>document.write(new Date().getFullYear())</script> MenúsDePR. <br> Todos los derechos reservados. <br><a href="https://menusdepr.com/privacy-policy.html" > Privacy Policy </a> </div>
       </div>
     </div>
   </div>

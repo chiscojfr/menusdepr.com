@@ -48,7 +48,7 @@
 	clear: both;
 }
 .sky-form a {
-	color: #ef0400;
+	color: #912429;
 }
 .sky-form .label {
 	display: block;
@@ -675,7 +675,7 @@ opacity: 1
 	-webkit-transition: border-color 0.3s;
 }
 .sky-form .toggle i:before {
-	background-color: #ef0400;
+	background-color: #912429;
 }
 .sky-form .rating label {
 	color: #ccc;
@@ -684,7 +684,7 @@ opacity: 1
 	-webkit-transition: color 0.3s;
 }
 .sky-form .button {
-	background-color: #ef0400;
+	background-color: #912429;
 	opacity: 0.8;
 	-ms-transition: opacity 0.2s;
 	-moz-transition: opacity 0.2s;
@@ -708,7 +708,7 @@ opacity: 1
 	border-color: #6e6e6e;
 }
 .sky-form .rating input + label:hover, .sky-form .rating input + label:hover ~ label {
- color: #ef0400;
+ color: #912429;
 }
 .sky-form .button:hover {
 	opacity: 1;
@@ -723,16 +723,16 @@ opacity: 1
 /* checked state */
 /**/
 .sky-form .radio input + i:after {
-	background-color: #ef0400;
+	background-color: #912429;
 }
 .sky-form .checkbox input + i:after {
-	color: #ef0400;
+	color: #912429;
 }
 .sky-form .radio input:checked + i, .sky-form .checkbox input:checked + i, .sky-form .toggle input:checked + i {
-	border-color: #ef0400;
+	border-color: #912429;
 }
 .sky-form .rating input:checked ~ label {
- color: #ef0400;
+ color: #912429;
 }
 /**/
 /* error state */
@@ -754,7 +754,7 @@ opacity: 1
 	font-style: normal;
 	font-size: 11px;
 	line-height: 15px;
-	color: #ef0400;
+	color: #912429;
 }
 .sky-form .rating.state-error + em {
 	margin-top: -4px;
@@ -1086,7 +1086,7 @@ opacity: 1
 .sky-form .button.five {
 	opacity:1;
 	color:#fff;
-	background-color: #ef0400;
+	background-color: #912429;
 	transition: all 0.3s ease-out 0s;
 }
 .sky-form .button.five:hover {
@@ -1096,7 +1096,7 @@ opacity: 1
 }
 .sky-form .button.six {
 	color:#fff;
-	background-color: #ef0400;
+	background-color: #912429;
 	transition: all 0.3s ease-out 0s;
 	opacity: 1;
 }
@@ -1110,7 +1110,7 @@ opacity: 1
 	font-size:16px;
 	padding:5px 30px;
 	border-radius:2px;
-	background-color: #ef0400;
+	background-color: #912429;
 	opacity: 1;
 	float:left;
 	transition: all 0.3s ease-out 0s;
@@ -1120,7 +1120,7 @@ opacity: 1
 	background-color: #161616;
 }
 .sky-form .button.eight {
-	background-color: #ef0400;
+	background-color: #912429;
 	padding:5px 35px;
 	font-size:14px;
 	font-weight:600;

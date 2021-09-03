@@ -43,24 +43,24 @@ ul.nav>li>a.active {
 	color:#dd3c9d;/*	border-bottom:3px solid #06d0d8;*/
 }
 ul.nav>li>a:hover.active {
-	color:#ef0400;/*border-bottom:3px solid #06d0d8;*/
+	color:#912429;/*border-bottom:3px solid #06d0d8;*/
 }
 .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
-	color: #ef0400;
+	color: #912429;
 }
 .navbar-default .navbar-nav > li > a, .navbar-default .navbar-text {
 	color:#fff;
 	font-size:14px;
 }
 .headr-style-3 .navbar-default .navbar-nav > li > a, .headr-style-3 .navbar-default .navbar-text {
-	color:#ef0400;
+	color:#912429;
 	font-size:14px;
 }
 .headr-style-2 .navbar-default .navbar-nav > li > a:hover {
-	color:#ef0400;
+	color:#912429;
 }
 .header.headr-style-1 .navbar-default .navbar-nav > li > a, .header.headr-style-1 .navbar-default .navbar-text {
-	color:#ef0400;
+	color:#912429;
 	font-size:14px;
 }
 .header.headr-style-1.font-white .navbar-default .navbar-nav > li > a, .header.headr-style-1.font-white .navbar-default .navbar-text {
@@ -127,7 +127,7 @@ ul.nav>li>a:hover.active {
 	width: 100%;
 }
 .list-unstyled a:hover {
-	color: #ef0400;
+	color: #912429;
 }
 .list-unstyled li p {
 	color: #242424;
@@ -163,7 +163,7 @@ ul.nav>li>a:hover.active {
 }
 .dropdown-menu>li>a:hover {
 	border-bottom: 1px solid #e4e4e4;
-	color:#ef0400;
+	color:#912429;
 }
 .headr-style-2 .dropdown-menu>li>a, .headr-style-3 .dropdown-menu>li>a, .headr-style-4 .dropdown-menu>li>a,  {
 	border-bottom: 1px solid #e4e4e4;
@@ -296,7 +296,7 @@ ul.nav>li>a:hover.active {
  margin-right:0;
 }
 .navbar-default .navbar-nav > li > a, .navbar-default .navbar-text {
- color:#ef0400;
+ color:#912429;
 }
 .yamm.fulldark .navbar-nav > li > a {
  padding-bottom: 10px;
@@ -331,7 +331,7 @@ ul.nav>li>a:hover.active {
  width:100%;
 }
 .navbar-default .navbar-nav > li > a, .navbar-default .navbar-text {
- color:#ef0400;
+ color:#912429;
 }
 .navbar-nav > li > a {
  padding-bottom: 5px;
@@ -375,7 +375,7 @@ ul.nav>li>a:hover.active {
  padding: 0;
 }
 .navbar-default .navbar-nav > li > a, .navbar-default .navbar-text {
- color:#ef0400;
+ color:#912429;
 }
 .list-unstyled h5, .list-unstyled li span {
  border-bottom: 1px solid #3d4045;
