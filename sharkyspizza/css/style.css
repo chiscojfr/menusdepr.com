@@ -43,6 +43,7 @@ body {
   font-family: "Raleway", sans-serif;
   /* color: #777575; */
   font-size: 15px;
+  background-color: #212121;
 }
 .container-fluid > .navbar-collapse,
 .container-fluid > .navbar-header,
@@ -57,6 +58,7 @@ body {
 }
 .site-wrapper {
   background: #fff;
+  background-color: #212121;
   margin: auto;
   width: 100%;
   overflow: hidden;
@@ -356,19 +358,25 @@ section {
   float: left;
   margin-right: 20px;
 }
+
+.menu-card p {
+  color: #fff;
+}
+
 .menu-items h3 {
-  background: #fff none repeat scroll 0 0;
+  background: #212121 none repeat scroll 0 0;
   display: inline;
   float: left;
   margin: 5px 0;
   padding-right: 10px;
   text-align: left;
-  color: #010101;
+  color: #e43d32;
   font-size: 20px;
 }
 .menu-items .price {
-  background: #fff none repeat scroll 0 0;
-  color: #005cfb;
+  background: #212121 none repeat scroll 0 0;
+  /* color: #005cfb; */
+  color: #4388ff;
   float: right;
   font-size: 20px;
   font-weight: bold;

@@ -930,8 +930,10 @@
 	text-align:center
 }
 .cbp-l-filters-work .cbp-filter-item {
-	background-color:#FFFFFF;
-	color:#888;
+	/* background-color:#FFFFFF; */
+	background:#2456ad;
+	/* color:#888; */
+	color:#fff;
 	cursor:pointer;
 	font:600 11px/37px 'Raleway', sans-serif;
 	margin:0 5px 10px 0;
@@ -944,12 +946,16 @@
 	transition:all 0.3s ease-in-out
 }
 .cbp-l-filters-work .cbp-filter-item:hover {
-	color:#fff;
-	background:#005cfb
+	/* background:#005cfb; */
+	background-color:#FFFFFF;
+	/* color:#fff; */
+	color:#888;
 }
 .cbp-l-filters-work .cbp-filter-item.cbp-filter-item-active {
-	background:#005cfb;
-	color:#fff;
+	/* background:#005cfb; */
+	background-color:#FFFFFF;
+	/* color:#fff; */
+	color:#000;
 	cursor:default
 }
 .cbp-l-filters-work .cbp-filter-counter {
@@ -3234,7 +3240,8 @@ transform:rotate(360deg)
 	padding:3px
 }
 .cbp-l-grid-work .cbp-item-wrapper {
-	background-color:#fff;
+	/* background-color:#fff; */
+	background-color: #212121;
 	/*box-shadow:0 1px 1px rgba(0,0,0,0.2);
 	padding:7px 7px 27px;*/
 	/* border-top:1px solid #F4F4F4 */

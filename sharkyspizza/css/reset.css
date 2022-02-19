@@ -3,7 +3,8 @@ COMPONENTS
 *********************************/
 body {
 	font-family: 'Raleway', sans-serif;
-	background:#FFF;
+	/* background:#FFF; */
+	background-color: #212121;
 	font-size: 15px;
 }
 a {
@@ -126,6 +127,7 @@ blockquote {
 }
 .font-bold {
 	font-weight: 700 !important;
+	color:#fff;
 }
 .font-uppercase {
 	text-transform: uppercase;
@@ -176,6 +178,7 @@ blockquote {
 }
 .font20 {
 	font-size:20px !important;
+	color:#fff;
 }
 .font25 {
 	font-size:25px !important;
