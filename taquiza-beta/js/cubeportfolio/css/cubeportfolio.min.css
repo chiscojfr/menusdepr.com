@@ -931,7 +931,7 @@
 }
 .cbp-l-filters-work .cbp-filter-item {
 	/* background-color:#FFFFFF; */
-	background:#5d8237;
+	background:linear-gradient(to right, #7a6851, #502900);
 	/* background: linear-gradient(87.4deg, rgb(200, 125, 76) 49.7%, rgb(83, 54, 54) 100.5%); */
 	/* color:#888; */
 	color:#fff;
@@ -950,13 +950,14 @@
 }
 .cbp-l-filters-work .cbp-filter-item:hover {
 	/* background:#005cfb; */
-	background-color:#212121;
+	background-color:#5d8237;
 	/* color:#fff; */
 	/* color:#888; */
 }
 .cbp-l-filters-work .cbp-filter-item.cbp-filter-item-active {
 	/* background:#005cfb; */
-	background-color:#212121;
+	/* background-color:#212121; */
+	background:#5d8237;
 	color:#fff;
 	/* color:#000; */
 	cursor:default
