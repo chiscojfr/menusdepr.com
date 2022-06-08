@@ -44,7 +44,7 @@ body {
   /* color: #777575; */
   font-size: 15px;
   /* background-color: #5d8237; */
-  background: linear-gradient(to right, #9FC14F, #5d8237);
+  background: linear-gradient(to right, #201b15, #050703);
 }
 .container-fluid > .navbar-collapse,
 .container-fluid > .navbar-header,
@@ -361,7 +361,7 @@ section {
 }
 
 .menu-card p {
-  color: #212121;
+  color: #fff;
 }
 
 .menu-items h3 {
@@ -2071,7 +2071,7 @@ body {
 }
 
 .title-line-recommended {
-  background-color: #502900;
+  background-color: #5d8237;
   height: 4px;
   margin: 5px auto 0px auto;
   padding: 0;
