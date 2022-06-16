@@ -30,15 +30,18 @@
 	z-index:1;
 	height:400px
 }
-.cbp:before {
-	content:'';
-	position:absolute;
-	width:100%;
-	height:100%;
-	top:0;
-	left:0;
-	/* background:url("../images/cbp-loading.gif") no-repeat scroll center center transparent */
-}
+@media(max-width:960px) {
+	.cbp:before {
+		content:'';
+		position:absolute;
+		width:100%;
+		height:100%;
+		top:0;
+		left:0;
+		background:url("../images/cbp-loading.gif") no-repeat scroll center center transparent
+	}
+  }
+
 .cbp>* {
 	visibility:hidden
 }
