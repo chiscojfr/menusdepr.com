@@ -37,7 +37,7 @@
 	height:100%;
 	top:0;
 	left:0;
-	background:url("../images/cbp-loading.gif") no-repeat scroll center center transparent
+	/* background:url("../images/cbp-loading.gif") no-repeat scroll center center transparent */
 }
 .cbp>* {
 	visibility:hidden
