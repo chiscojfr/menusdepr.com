@@ -41,8 +41,10 @@ Designed By: UXLiner
 ------------------------------------------------------*/
 body {
   font-family: "Raleway", sans-serif;
-  color: #777575;
+  /* color: #777575; */
   font-size: 15px;
+  /* background-color: #5d8237; */
+  background: linear-gradient(to right, #201b15, #050703);
 }
 .container-fluid > .navbar-collapse,
 .container-fluid > .navbar-header,
@@ -57,6 +59,7 @@ body {
 }
 .site-wrapper {
   background: #fff;
+  background-color: #212121;
   margin: auto;
   width: 100%;
   overflow: hidden;
@@ -88,7 +91,7 @@ body {
   color: #fff;
 }
 .cart .cart-info {
-  background: #faff00;
+  background: #005cfb;
   width: 18px;
   height: 18px;
   text-align: center;
@@ -127,7 +130,7 @@ h4.item-name a:hover {
   margin: 15px 0 10px 0;
 }
 .button-cart {
-  background: #faff00;
+  background: #005cfb;
   padding: 8px 15px;
   font-size: 14px;
   text-transform: uppercase;
@@ -220,7 +223,7 @@ section {
   height: auto !important;
 }
 .skroll-header ul li.skroll-active a {
-  color: #faff00;
+  color: #005cfb;
 }
 .section-lg {
   width: 100%;
@@ -246,7 +249,7 @@ section {
 }
 .carousel-indicators .active,
 .carousel-indicators.white-color .active {
-  background: #faff00 none repeat scroll 0 0;
+  background: #005cfb none repeat scroll 0 0;
   border: 0 none;
   height: 4px;
   margin: 0;
@@ -308,7 +311,7 @@ section {
 }
 .fea-sce-col:hover .iconbox,
 .fea-sce-col.active .iconbox {
-  background: #faff00;
+  background: #005cfb;
   color: #fff;
   border-radius: 100%;
 }
@@ -335,7 +338,7 @@ section {
 }
 .fea-sce-col:hover .icon-boxed.wide90,
 .fea-sce-col.active .icon-boxed.wide90 {
-  background: #faff00;
+  background: #005cfb;
   color: #fff;
   border-radius: 100%;
 }
@@ -356,8 +359,13 @@ section {
   float: left;
   margin-right: 20px;
 }
+
+.menu-card p {
+  color: #fff;
+}
+
 .menu-items h3 {
-  background: #5d8237 none repeat scroll 0 0;
+  /* background: linear-gradient(to right, #9FC14F, #5d8237); */
   display: inline;
   float: left;
   margin: 5px 0;
@@ -365,23 +373,28 @@ section {
   text-align: left;
   color: #fff;
   font-size: 20px;
+  z-index: 3;
+  font-weight: bold;
 }
 .menu-items .price {
-  background: #5d8237 none repeat scroll 0 0;
-  color: #faff00;
+  /* background: linear-gradient(to right, #9FC14F, #5d8237); */
+  /* color: #005cfb; */
+  color: #fff;
   float: right;
   font-size: 20px;
   font-weight: bold;
   margin: 3px 0;
   padding-left: 10px;
+  z-index: 3;
 }
 .menu-items .dotted-lines {
-  border-top: 2px dotted #ccc;
+  border-top: 2px dotted #502900;
   left: 0;
   position: absolute;
   top: 18px;
   width: 100%;
   z-index: -1;
+  display: none;
 }
 .menu-items.sidebar h3 {
   font-size: 15px;
@@ -432,7 +445,7 @@ section {
   height: 20px;
 }
 .sec-title h2::before {
-  background: #faff00 none repeat scroll 0 0;
+  background: #005cfb none repeat scroll 0 0;
   content: "";
   height: 100%;
   letter-spacing: 1px;
@@ -527,7 +540,7 @@ section {
 	Parallax and Textures
 ------------------------------------------------------*/
 .bg-parallax {
-  /* background: url(../images/top-img.jpg) no-repeat center bottom fixed; */
+  background: url(../images/top-img.jpg) no-repeat center bottom fixed;
   background-size: cover;
   width: 100%;
   float: left;
@@ -1012,9 +1025,9 @@ section {
 }
 /*orange button*/
 .orange-button {
-  border: solid 1px #faff00;
+  border: solid 1px #005cfb;
   border-radius: 30px;
-  background: #faff00;
+  background: #005cfb;
   padding: 10px 20px;
   color: #fff;
   border-radius: 0px;
@@ -1049,7 +1062,7 @@ section {
 .orange-button.one {
   border: 0;
   border-radius: 30px;
-  background: #faff00;
+  background: #005cfb;
   padding: 20px;
   color: #fff;
   text-align: center;
@@ -1065,7 +1078,7 @@ section {
 /*orange button*/
 .orange-button.two {
   border: 0;
-  background: #faff00;
+  background: #005cfb;
   padding: 15px 30px;
   color: #fff;
   text-align: center;
@@ -1128,9 +1141,9 @@ section {
 }
 /*blue button*/
 .blue-button {
-  border: solid 1px #faff00;
+  border: solid 1px #005cfb;
   border-radius: 30px;
-  background: #faff00;
+  background: #005cfb;
   padding: 10px 20px;
   color: #fff;
   border-radius: 0px;
@@ -1157,9 +1170,9 @@ section {
 .samll-grey-button:hover,
 .pricing-box.style-1:hover .samll-grey-button,
 .pricing-box.style-1.active .samll-grey-button {
-  border: solid 1px #faff00;
+  border: solid 1px #005cfb;
   color: #fff;
-  background: #faff00;
+  background: #005cfb;
 }
 /*brn style large*/
 .button a.boxed-color-lg {
@@ -1183,10 +1196,10 @@ section {
   border: solid 1px #414141;
 }
 .button a.boxed-color-lg.red {
-  background: #faff00;
+  background: #005cfb;
 }
 .button a.boxed-color-lg.blue {
-  background: #faff00;
+  background: #005cfb;
 }
 .button a.boxed-color-lg.green {
   background: #449d44;
@@ -1213,13 +1226,13 @@ section {
   background: #ff2023;
 }
 .button a.boxed-color-sm.blue {
-  background: #faff00;
+  background: #005cfb;
 }
 .button a.boxed-color-sm.green {
   background: #449d44;
 }
 .button a.boxed-color-sm.orange {
-  background: #faff00;
+  background: #005cfb;
 }
 .button a.boxed-color-sm:hover,
 .button a.boxed-color-sm.active {
@@ -1230,7 +1243,7 @@ section {
 /*brn style extra small*/
 .button a.boxed-color-xs {
   border: 0;
-  background: #faff00;
+  background: #005cfb;
   border-radius: 0px;
   padding: 12px 20px;
   color: #fff;
@@ -1238,10 +1251,10 @@ section {
   font-weight: bold;
 }
 .button a.boxed-color-xs.red {
-  background: #faff00;
+  background: #005cfb;
 }
 .button a.boxed-color-xs.blue {
-  background: #faff00;
+  background: #005cfb;
 }
 .button a.boxed-color-xs.green {
   background: #449d44;
@@ -1274,7 +1287,7 @@ section {
 }
 .button a.boxed-color {
   border: 0;
-  background: #faff00;
+  background: #005cfb;
   border-radius: 0px;
   padding: 15px 40px;
   color: #fff;
@@ -1347,7 +1360,7 @@ section {
   cursor: pointer;
 }
 .flip .card .back {
-  background: #faff00;
+  background: #005cfb;
   color: #fff;
   cursor: pointer;
   padding: 30px;
@@ -1409,7 +1422,7 @@ section {
   cursor: pointer;
 }
 .flip .cardv .back {
-  background: #faff00;
+  background: #005cfb;
   color: #fff;
   cursor: pointer;
   padding: 30px;
@@ -1524,7 +1537,7 @@ section {
 .tab-style .nav-tabs > li.active > a:focus,
 .tab-style .nav-tabs > li.active > a:hover,
 .tab-style .nav-tabs > li > a:hover {
-  background: #faff00;
+  background: #005cfb;
   border: 0;
 }
 .tab-style1 {
@@ -1900,7 +1913,7 @@ footer {
   padding: 80px 0 30px 0;
 }
 .title-line {
-  background-color: #faff00;
+  background-color: #502900;
   height: 2px;
   margin: 10px auto 25px 0;
   padding: 0;
@@ -1962,10 +1975,10 @@ ul.social-icons li a {
   width: 45px;
 }
 ul.social-icons li a:hover {
-  background-color: #faff00;
+  background-color: #005cfb;
 }
 ul.social-icons li a:hover i {
-  color: #faff00;
+  color: #005cfb;
 }
 ul.social-icons.team li {
   display: inline-block;
@@ -1999,10 +2012,10 @@ ul.social-icons.style-two li a {
 }
 ul.social-icons.style-two li a:hover {
   background: #fff;
-  color: #faff00;
+  color: #005cfb;
 }
 ul.social-icons.style-two li a:hover i {
-  color: #faff00;
+  color: #005cfb;
 }
 iframe {
   border: 0;
@@ -2045,46 +2058,29 @@ ul.address-info.one li {
   right: 20px;
   display: none;
   text-indent: -9999px;
-  background: #afab05 url(../images/scroll-top-arrow.png) no-repeat 15px 14px;
+  background: #502900 url(../images/scroll-top-arrow.png) no-repeat 15px 14px;
   z-index: 999;
 }
 
 /* Custom */
-
-.font-red {
-  color: #faff00;
-  font-weight: bold;
+html, body {
+  overflow-x: hidden !important;
+}
+body {
+  position: relative !important;
 }
 
 .title-line-recommended {
-  background-color: #faff00;
-  height: 2px;
+  background-color: #5d8237;
+  height: 4px;
   margin: 5px auto 0px auto;
   padding: 0;
   width: 85%;
 }
 
-.cbp-item {
-  width: 100% !important;
-  padding: 10px !important;
+@media(min-width:960px) {
+  .imgbox img {
+    width: 50%;
+    margin: 0 auto;
+  }
 }
-
-.recommended-container {
-  padding: 15px !important;
-  margin-bottom: 30px;
-}
-
-/* @media only screen and (max-width: 800px) { */
-  html, body {
-    overflow-x: hidden !important;
-  }
-  body {
-    position: relative !important;
-  }
-/* } */
-
-/* @media only screen and (min-width: 500px) {
-  .w-400 {
-    width: 400px !important;
-  }
-} */

@@ -30,15 +30,18 @@
 	z-index:1;
 	height:400px
 }
-.cbp:before {
-	content:'';
-	position:absolute;
-	width:100%;
-	height:100%;
-	top:0;
-	left:0;
-	background:url("../images/cbp-loading.gif") no-repeat scroll center center transparent
-}
+@media(max-width:960px) {
+	.cbp:before {
+		content:'';
+		position:absolute;
+		width:100%;
+		height:100%;
+		top:0;
+		left:0;
+		background:url("../images/cbp-loading.gif") no-repeat scroll center center transparent
+	}
+  }
+
 .cbp>* {
 	visibility:hidden
 }
@@ -930,8 +933,13 @@
 	text-align:center
 }
 .cbp-l-filters-work .cbp-filter-item {
-	background-color:#212121;
+	/* background-color:#FFFFFF; */
+	background:linear-gradient(to right, #7a6851, #502900);
+	/* background: linear-gradient(87.4deg, rgb(200, 125, 76) 49.7%, rgb(83, 54, 54) 100.5%); */
+	/* color:#888; */
 	color:#fff;
+	/* color: #000; */
+	font-weight: bold;
 	cursor:pointer;
 	font:600 11px/37px 'Raleway', sans-serif;
 	margin:0 5px 10px 0;
@@ -944,12 +952,17 @@
 	transition:all 0.3s ease-in-out
 }
 .cbp-l-filters-work .cbp-filter-item:hover {
-	color:#fff;
-	background:#faff00
+	/* background:#005cfb; */
+	background-color:#5d8237;
+	/* color:#fff; */
+	/* color:#888; */
 }
 .cbp-l-filters-work .cbp-filter-item.cbp-filter-item-active {
-	background:#faff00;
-	color: black;
+	/* background:#005cfb; */
+	/* background-color:#212121; */
+	background:#5d8237;
+	color:#fff;
+	/* color:#000; */
 	cursor:default
 }
 .cbp-l-filters-work .cbp-filter-counter {
@@ -3234,7 +3247,9 @@ transform:rotate(360deg)
 	padding:3px
 }
 .cbp-l-grid-work .cbp-item-wrapper {
-	background-color:#5d8237;
+	/* background-color:#fff; */
+	/* background-color: #5d8237; */
+	/* background: linear-gradient(to right, #9FC14F, #5d8237); */
 	/*box-shadow:0 1px 1px rgba(0,0,0,0.2);
 	padding:7px 7px 27px;*/
 	/* border-top:1px solid #F4F4F4 */
