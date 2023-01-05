@@ -931,7 +931,7 @@
 }
 .cbp-l-filters-work .cbp-filter-item {
 	/* background-color:#FFFFFF; */
-	background:#2456ad;
+	background:#212121;
 	/* color:#888; */
 	color:#fff;
 	cursor:pointer;
@@ -3241,7 +3241,7 @@ transform:rotate(360deg)
 }
 .cbp-l-grid-work .cbp-item-wrapper {
 	/* background-color:#fff; */
-	background-color: #212121;
+	background-color: #2456ad;
 	/*box-shadow:0 1px 1px rgba(0,0,0,0.2);
 	padding:7px 7px 27px;*/
 	/* border-top:1px solid #F4F4F4 */

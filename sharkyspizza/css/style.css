@@ -43,7 +43,7 @@ body {
   font-family: "Raleway", sans-serif;
   /* color: #777575; */
   font-size: 15px;
-  background-color: #212121;
+  background-color: #2456ad;
 }
 .container-fluid > .navbar-collapse,
 .container-fluid > .navbar-header,
@@ -58,7 +58,7 @@ body {
 }
 .site-wrapper {
   background: #fff;
-  background-color: #212121;
+  background-color: #2456ad;
   margin: auto;
   width: 100%;
   overflow: hidden;
@@ -364,19 +364,19 @@ section {
 }
 
 .menu-items h3 {
-  background: #212121 none repeat scroll 0 0;
+  background: #2456ad none repeat scroll 0 0;
   display: inline;
   float: left;
   margin: 5px 0;
   padding-right: 10px;
   text-align: left;
-  color: #e43d32;
+  color: #fff;
   font-size: 20px;
 }
 .menu-items .price {
-  background: #212121 none repeat scroll 0 0;
+  background: #2456ad none repeat scroll 0 0;
   /* color: #005cfb; */
-  color: #4388ff;
+  color: #fff;
   float: right;
   font-size: 20px;
   font-weight: bold;
@@ -384,7 +384,7 @@ section {
   padding-left: 10px;
 }
 .menu-items .dotted-lines {
-  border-top: 2px dotted #ccc;
+  border-top: 2px dotted #e43d32;
   left: 0;
   position: absolute;
   top: 18px;
