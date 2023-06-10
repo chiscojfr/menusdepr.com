@@ -1,0 +1,23 @@
+
+body {
+  margin: 0;
+  padding: 0
+}
+
+#skroll { display: none }
+
+.skroll-header ul li {
+  display: inline;
+  margin: 0 5px
+}
+
+
+.skroll-content section {
+  width: 100%;
+  height: 100%;
+  float: left;
+}
+
+.skroll-content section:nth-child(odd) { background-color: #fff }
+
+.skroll-content section:nth-child(even) { background-color: #fff }
