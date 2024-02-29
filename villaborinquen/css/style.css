@@ -2076,7 +2076,7 @@ body {
 .logo {
   padding: 2%;
   background-color: #828991;
-  /* border-radius: 5%; */
+  border-radius: 5%;
   width: 215px;
   margin: 0 auto;
 }
