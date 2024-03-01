@@ -368,7 +368,7 @@ section {
 }
 .menu-items .price {
   background: #fff none repeat scroll 0 0;
-  color: #828991;
+  color: #656661;
   float: right;
   font-size: 20px;
   font-weight: bold;
@@ -1900,7 +1900,7 @@ footer {
   padding: 80px 0 30px 0;
 }
 .title-line {
-  background-color: #828991;
+  background-color: #656661;
   height: 2px;
   margin: 10px auto 25px 0;
   padding: 0;
@@ -2045,7 +2045,7 @@ ul.address-info.one li {
   right: 20px;
   display: none;
   text-indent: -9999px;
-  background: #828991 url(../images/scroll-top-arrow.png) no-repeat 15px 14px;
+  background: #656661 url(../images/scroll-top-arrow.png) no-repeat 15px 14px;
   z-index: 999;
 }
 
@@ -2059,7 +2059,7 @@ body {
 }
 
 .title-line-recommended {
-  background-color: #828991;
+  background-color: #656661;
   height: 2px;
   margin: 5px auto 0px auto;
   padding: 0;
@@ -2075,7 +2075,7 @@ body {
 
 .logo {
   padding: 2%;
-  background-color: #828991;
+  background-color: #656661;
   border-radius: 5%;
   width: 215px;
   margin: 0 auto;
