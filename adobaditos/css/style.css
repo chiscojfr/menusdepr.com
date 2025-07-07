@@ -223,7 +223,7 @@ section {
   color: #ef0400;
 }
 .section-lg {
-  background-color: #ba3132;
+  background-color: #d96d04;
   width: 100%;
   float: left;
 }
@@ -358,7 +358,7 @@ section {
   margin-right: 20px;
 }
 .menu-items h3 {
-  background: #ba3132 none repeat scroll 0 0;
+  background: #d96d04 none repeat scroll 0 0;
   display: inline;
   float: left;
   margin: 5px 0;
@@ -368,7 +368,7 @@ section {
   font-size: 20px;
 }
 .menu-items .price {
-  background: #ba3132 none repeat scroll 0 0;
+  background: #d96d04 none repeat scroll 0 0;
   color: #f5f5f5;
   float: right;
   font-size: 20px;
